@@ -283,7 +283,10 @@ body {
 
 .speaker__photo img {
     display: block;
-    position: relative
+    position: relative;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    overflow: hidden;
 }
 
 .speaker__text {
